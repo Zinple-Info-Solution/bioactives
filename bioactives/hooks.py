@@ -248,3 +248,27 @@ app_license = "mit"
 # ignore_translatable_strings_from = []
 
 app_include_js = "/assets/bioactives/js/territory_mandatory.js"
+
+fixtures = [
+   
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["dt", "=", "Customer"]
+        ]
+    },
+    
+    {
+        "dt": "Client Script",
+        "filters": [
+            ["dt", "=", "Customer"]
+        ]
+    },
+    
+    {
+        "dt": "Server Script",
+        "filters": [
+            ["reference_doctype", "=", "Customer"]
+        ]
+    },
+]

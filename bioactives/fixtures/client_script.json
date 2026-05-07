@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Customer",
+  "enabled": 1,
+  "modified": "2026-05-06 18:02:23.976320",
+  "module": null,
+  "name": "Customer Territory Mandatory",
+  "script": "frappe.ui.form.on('Customer', {\r\n    setup: function(frm) {\r\n        // Make Territory mandatory with red star\r\n        frm.set_df_property('territory', 'reqd', 1);\r\n    }\r\n});",
+  "view": "Form"
+ }
+]
