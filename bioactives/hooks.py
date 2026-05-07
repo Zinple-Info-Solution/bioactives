@@ -250,25 +250,25 @@ app_license = "mit"
 app_include_js = "/assets/bioactives/js/territory_mandatory.js"
 
 fixtures = [
-    # Export custom fields
+    # Export custom fields on Lead
     {
         "dt": "Custom Field",
         "filters": [
-            ["dt", "=", "Customer"]
+            ["dt", "=", "Lead"]
         ]
     },
-    # Export client scripts
+    # Export client scripts on Lead
     {
         "dt": "Client Script",
         "filters": [
-            ["dt", "=", "Customer"]
+            ["dt", "=", "Lead"]
         ]
     },
-    # Export server scripts
+    # Export server scripts on Lead
     {
         "dt": "Server Script",
         "filters": [
-            ["reference_doctype", "=", "Customer"]
+            ["reference_doctype", "=", "Lead"]
         ]
     },
     # Export territory master data
@@ -295,5 +295,9 @@ fixtures = [
                 "Dubai"
             ]]
         ]
+    },
+    # Export CRM Settings
+    {
+        "dt": "CRM Settings"
     },
 ]
