@@ -250,25 +250,50 @@ app_license = "mit"
 app_include_js = "/assets/bioactives/js/territory_mandatory.js"
 
 fixtures = [
-   
+    # Export custom fields
     {
         "dt": "Custom Field",
         "filters": [
             ["dt", "=", "Customer"]
         ]
     },
-    
+    # Export client scripts
     {
         "dt": "Client Script",
         "filters": [
             ["dt", "=", "Customer"]
         ]
     },
-    
+    # Export server scripts
     {
         "dt": "Server Script",
         "filters": [
             ["reference_doctype", "=", "Customer"]
+        ]
+    },
+    # Export territory master data
+    {
+        "dt": "Territory",
+        "filters": [
+            ["name", "in", [
+                "Indonesia",
+                "Malaysia",
+                "Myanmar",
+                "Philippines",
+                "Singapore",
+                "Korea",
+                "Taiwan",
+                "Thailand",
+                "Vietnam",
+                "Saudi Arabia",
+                "Qatar",
+                "Bahrain",
+                "Oman",
+                "Kuwait",
+                "Egypt",
+                "South Africa",
+                "Dubai"
+            ]]
         ]
     },
 ]
