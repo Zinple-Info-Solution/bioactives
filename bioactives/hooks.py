@@ -257,13 +257,7 @@ fixtures = [
             ["dt", "=", "Lead"]
         ]
     },
-    # Export client scripts on Lead
-    {
-        "dt": "Client Script",
-        "filters": [
-            ["dt", "=", "Lead"]
-        ]
-    },
+   
     # Export server scripts on Lead
     {
         "dt": "Server Script",
