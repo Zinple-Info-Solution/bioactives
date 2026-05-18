@@ -247,7 +247,7 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
-app_include_js = "/assets/bioactives/js/territory_mandatory.js"
+
 
 fixtures = [
     # Export custom fields on Lead
@@ -293,5 +293,19 @@ fixtures = [
     # Export CRM Settings
     {
         "dt": "CRM Settings"
+    },
+    # Export client scripts for mandatory fields
+    {
+        "dt": "Client Script",
+        "filters": [
+            ["dt", "in", ["Lead", "Opportunity", "Quotation"]]
+        ]
+    },
+    # Export Property Setters for Lead field customizations
+    {
+        "dt": "Property Setter",
+        "filters": [
+            ["doc_type", "=", "Lead"]
+        ]
     },
 ]

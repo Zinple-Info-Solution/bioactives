@@ -3,18 +3,6 @@
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:34:08.098582",
-  "name": "Indonesia",
-  "old_parent": "All Territories",
-  "parent_territory": "All Territories",
-  "targets": [],
-  "territory_manager": null,
-  "territory_name": "Indonesia"
- },
- {
-  "docstatus": 0,
-  "doctype": "Territory",
-  "is_group": 0,
   "modified": "2026-05-06 17:34:28.975019",
   "name": "Malaysia",
   "old_parent": "All Territories",
@@ -34,18 +22,6 @@
   "targets": [],
   "territory_manager": null,
   "territory_name": "Myanmar"
- },
- {
-  "docstatus": 0,
-  "doctype": "Territory",
-  "is_group": 0,
-  "modified": "2026-05-06 17:34:52.436474",
-  "name": "Philippines",
-  "old_parent": "All Territories",
-  "parent_territory": "All Territories",
-  "targets": [],
-  "territory_manager": null,
-  "territory_name": "Philippines"
  },
  {
   "docstatus": 0,
@@ -123,30 +99,6 @@
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:36:28.774546",
-  "name": "Qatar",
-  "old_parent": "All Territories",
-  "parent_territory": "All Territories",
-  "targets": [],
-  "territory_manager": null,
-  "territory_name": "Qatar"
- },
- {
-  "docstatus": 0,
-  "doctype": "Territory",
-  "is_group": 0,
-  "modified": "2026-05-06 17:36:36.828783",
-  "name": "Bahrain",
-  "old_parent": "All Territories",
-  "parent_territory": "All Territories",
-  "targets": [],
-  "territory_manager": null,
-  "territory_name": "Bahrain"
- },
- {
-  "docstatus": 0,
-  "doctype": "Territory",
-  "is_group": 0,
   "modified": "2026-05-06 17:36:46.441959",
   "name": "Oman",
   "old_parent": "All Territories",
@@ -202,5 +154,53 @@
   "targets": [],
   "territory_manager": null,
   "territory_name": "Dubai"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Territory",
+  "is_group": 0,
+  "modified": "2026-05-06 17:34:08.098582",
+  "name": "Indonesia",
+  "old_parent": "All Territories",
+  "parent_territory": "All Territories",
+  "targets": [],
+  "territory_manager": null,
+  "territory_name": "Indonesia"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Territory",
+  "is_group": 0,
+  "modified": "2026-05-06 17:34:52.436474",
+  "name": "Philippines",
+  "old_parent": "All Territories",
+  "parent_territory": "All Territories",
+  "targets": [],
+  "territory_manager": null,
+  "territory_name": "Philippines"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Territory",
+  "is_group": 0,
+  "modified": "2026-05-06 17:36:28.774546",
+  "name": "Qatar",
+  "old_parent": "All Territories",
+  "parent_territory": "All Territories",
+  "targets": [],
+  "territory_manager": null,
+  "territory_name": "Qatar"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Territory",
+  "is_group": 0,
+  "modified": "2026-05-06 17:36:36.828783",
+  "name": "Bahrain",
+  "old_parent": "All Territories",
+  "parent_territory": "All Territories",
+  "targets": [],
+  "territory_manager": null,
+  "territory_name": "Bahrain"
  }
 ]

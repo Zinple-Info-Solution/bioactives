@@ -1,1 +1,35 @@
-[]
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Lead",
+  "enabled": 1,
+  "modified": "2026-05-18 15:23:25.363341",
+  "module": null,
+  "name": "Lead Mandatory",
+  "script": "frappe.ui.form.on('Lead', {\r\n    refresh: function(frm) {\r\n        frm.set_df_property('territory', 'reqd', 1);\r\n        frm.set_df_property('country', 'reqd', 1);\r\n        frm.set_df_property('email_id', 'reqd', 1);\r\n        frm.set_df_property('company_name', 'reqd', 1);\r\n    }\r\n});",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Opportunity",
+  "enabled": 1,
+  "modified": "2026-05-18 13:10:56.192457",
+  "module": null,
+  "name": "Opportunity Mandatory",
+  "script": "frappe.ui.form.on('Opportunity', {\r\n    refresh: function(frm) {\r\n        frm.set_df_property('territory', 'reqd', 1);\r\n    }\r\n});",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Quotation",
+  "enabled": 1,
+  "modified": "2026-05-18 13:11:38.621199",
+  "module": null,
+  "name": "Quotation Mandatory",
+  "script": "frappe.ui.form.on('Quotation', {\r\n    refresh: function(frm) {\r\n        frm.set_df_property('territory', 'reqd', 1);\r\n    }\r\n});",
+  "view": "Form"
+ }
+]
