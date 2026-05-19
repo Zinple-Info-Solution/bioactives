@@ -1,9 +1,10 @@
 [
  {
+  "custom_territory_code": "ml",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:34:28.975019",
+  "modified": "2026-05-19 15:59:44.552503",
   "name": "Malaysia",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -12,10 +13,11 @@
   "territory_name": "Malaysia"
  },
  {
+  "custom_territory_code": "mm",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:34:40.719616",
+  "modified": "2026-05-19 15:59:56.862493",
   "name": "Myanmar",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -24,10 +26,11 @@
   "territory_name": "Myanmar"
  },
  {
+  "custom_territory_code": "sg",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:35:03.603005",
+  "modified": "2026-05-19 16:00:24.264437",
   "name": "Singapore",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -36,10 +39,11 @@
   "territory_name": "Singapore"
  },
  {
+  "custom_territory_code": "kr",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:35:16.486228",
+  "modified": "2026-05-19 16:00:35.790107",
   "name": "Korea",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -48,10 +52,11 @@
   "territory_name": "Korea"
  },
  {
+  "custom_territory_code": "tw",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:35:26.010064",
+  "modified": "2026-05-19 16:00:45.766904",
   "name": "Taiwan",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -60,10 +65,11 @@
   "territory_name": "Taiwan"
  },
  {
+  "custom_territory_code": "th",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:35:34.463952",
+  "modified": "2026-05-19 16:00:58.255032",
   "name": "Thailand",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -72,10 +78,11 @@
   "territory_name": "Thailand"
  },
  {
+  "custom_territory_code": "vn",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:35:44.326675",
+  "modified": "2026-05-19 16:01:09.250367",
   "name": "Vietnam",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -84,10 +91,11 @@
   "territory_name": "Vietnam"
  },
  {
+  "custom_territory_code": "sa",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:36:16.655149",
+  "modified": "2026-05-19 16:01:18.736519",
   "name": "Saudi Arabia",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -96,10 +104,11 @@
   "territory_name": "Saudi Arabia"
  },
  {
+  "custom_territory_code": "om",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:36:46.441959",
+  "modified": "2026-05-19 16:01:56.259869",
   "name": "Oman",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -108,10 +117,11 @@
   "territory_name": "Oman"
  },
  {
+  "custom_territory_code": "kw",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:36:55.115546",
+  "modified": "2026-05-19 16:02:05.244806",
   "name": "Kuwait",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -120,10 +130,11 @@
   "territory_name": "Kuwait"
  },
  {
+  "custom_territory_code": "eg",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:37:05.154199",
+  "modified": "2026-05-19 15:54:26.953417",
   "name": "Egypt",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -132,10 +143,11 @@
   "territory_name": "Egypt"
  },
  {
+  "custom_territory_code": "za",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:37:15.287440",
+  "modified": "2026-05-19 16:02:24.206105",
   "name": "South Africa",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -144,10 +156,11 @@
   "territory_name": "South Africa"
  },
  {
+  "custom_territory_code": "db",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:37:45.503619",
+  "modified": "2026-05-19 16:02:31.910366",
   "name": "Dubai",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -156,10 +169,11 @@
   "territory_name": "Dubai"
  },
  {
+  "custom_territory_code": "id",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:34:08.098582",
+  "modified": "2026-05-19 15:59:32.862886",
   "name": "Indonesia",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -168,10 +182,11 @@
   "territory_name": "Indonesia"
  },
  {
+  "custom_territory_code": "pl",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:34:52.436474",
+  "modified": "2026-05-19 16:00:12.028201",
   "name": "Philippines",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -180,10 +195,11 @@
   "territory_name": "Philippines"
  },
  {
+  "custom_territory_code": "qt",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:36:28.774546",
+  "modified": "2026-05-19 16:01:30.763738",
   "name": "Qatar",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",
@@ -192,10 +208,11 @@
   "territory_name": "Qatar"
  },
  {
+  "custom_territory_code": "br",
   "docstatus": 0,
   "doctype": "Territory",
   "is_group": 0,
-  "modified": "2026-05-06 17:36:36.828783",
+  "modified": "2026-05-19 16:01:46.295808",
   "name": "Bahrain",
   "old_parent": "All Territories",
   "parent_territory": "All Territories",

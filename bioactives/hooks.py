@@ -250,14 +250,15 @@ app_license = "mit"
 
 
 fixtures = [
-    # Export custom fields on Lead
+
+    # Export custom fields on Lead & Territory
     {
         "dt": "Custom Field",
         "filters": [
-            ["dt", "=", "Lead"]
+            ["dt", "in", ["Lead", "Territory"]]
         ]
     },
-   
+
     # Export server scripts on Lead
     {
         "dt": "Server Script",
@@ -265,6 +266,7 @@ fixtures = [
             ["reference_doctype", "=", "Lead"]
         ]
     },
+
     # Export territory master data
     {
         "dt": "Territory",
@@ -290,10 +292,12 @@ fixtures = [
             ]]
         ]
     },
+
     # Export CRM Settings
     {
         "dt": "CRM Settings"
     },
+
     # Export client scripts for mandatory fields
     {
         "dt": "Client Script",
@@ -301,6 +305,7 @@ fixtures = [
             ["dt", "in", ["Lead", "Opportunity", "Quotation"]]
         ]
     },
+
     # Export Property Setters for Lead field customizations
     {
         "dt": "Property Setter",
@@ -308,4 +313,5 @@ fixtures = [
             ["doc_type", "=", "Lead"]
         ]
     },
+
 ]
